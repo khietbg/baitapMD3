@@ -21,6 +21,9 @@ public class Main {
             int temp = arr[j];
             arr[j]= arr[size-1-j];
             arr[size-1-j]= temp;
+
+        }
+        for (int j = 0; j < arr.length; j++) {
             System.out.println(arr[j]);
         }
     }
